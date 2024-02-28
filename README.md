@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/mbednarek98/ejudge/blob/master/res/logo.png?raw=true" width="200" alt="eJudge Logo" />
+  <img src="https://github.com/mbednarek98/ejudge/blob/master/res/logo.png?raw=true" width="250" alt="eJudge Logo" />
 
   # eJudge
 
@@ -8,6 +8,7 @@
   <img src="https://dcbadge.vercel.app/api/shield/247463720337276929?style=flat" alt="Discord" />
 </a>
 
+A Node.js-based web application for legal trial case management, leveraging Express JS and MySQL for efficient case handling. <br>    Designed for seamless operation, it supports case creation, modification, and deletion within a Dockerized environment for easy setup and deployment.
 
 </div>
 
@@ -15,12 +16,16 @@
 1. [Prerequisites](#🔑-prerequisites)
 2. [Installation](#⚙️-installation)
 3. [Usage](#🚀-usage)
-5. [Database Diagram](#💬-database-diagram)
+4. [Database Diagram](#💬-database-diagram)
+5. [Screenshots]()
 6. [License](#📕-license)
 
 ## ✨ Features
 
-
+- Legal trial case CRUD operations.
+- Integrated MySQL database management via Sequelize ORM.
+- Real-time case data processing with Express JS and Node JS.
+- Integrated phpMyAdmin for intuitive database management.
 
 ## 🔑 Prerequisites
 
@@ -68,7 +73,11 @@ $ npm start        # Runs the application
 
 ## 💬 Database Diagram
 
-<img src="https://github.com/mbednarek98/ejudge/blob/master/res/db_diagram.png?raw=true" width="200" alt="Database diagram" />
+<div align='center'>
+  
+<img src="https://github.com/mbednarek98/ejudge/blob/master/res/db_diagram.png?raw=true"  alt="Database diagram" />
+
+</div> 
 
 ## 📕 License
 
